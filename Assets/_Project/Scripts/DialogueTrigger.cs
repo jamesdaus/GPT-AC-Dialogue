@@ -24,7 +24,7 @@ public class DialogueTrigger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !ui.inDialogue && currentVillager != null)
+        if (Input.GetKeyDown(KeyCode.Return) && !ui.inDialogue && currentVillager != null)
         {
             targetGroup.m_Targets[1].target = currentVillager.transform;
             movement.active = false;

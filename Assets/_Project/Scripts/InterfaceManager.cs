@@ -48,7 +48,7 @@ public class InterfaceManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && inDialogue)
+        if (Input.GetKeyDown(KeyCode.Return) && inDialogue)
         {
             if (canExit)
             {
