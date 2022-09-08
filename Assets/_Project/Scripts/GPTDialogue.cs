@@ -21,7 +21,7 @@ public static class GPTDialogue
                 ""presence_penalty"": 0
                 ", s.Trim()) + "}";
         var jsonBytes = Encoding.UTF8.GetBytes(json);
-        request.Headers["Authorization"] = "Bearer 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";
+        request.Headers["Authorization"] = "INSERT API AUTH";
         request.ContentType = "application/json";
 
         Stream requestStream = request.GetRequestStream();
